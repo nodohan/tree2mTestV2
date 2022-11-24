@@ -1,0 +1,539 @@
+body {
+    background-color: rgba(0, 123, 255, 0.2);
+}
+
+img {
+    width: 42px;
+    height: 42px;
+}
+
+.top {
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    padding: 15px;
+    position: relative;
+    width: 1120px;
+    height: 52px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+table {
+    background-color: white;
+}
+
+table th,
+table td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.vsTable tbody td:nth-child(3n) {
+    border-left: 2px solid #bfb1b3;
+}
+
+.vsTable tbody td:nth-child(2) {
+    border-left: 2px solid #bfb1b3;
+}
+
+.con {
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    width: 550px;
+    min-height: 750px;
+    border-radius: 7px;
+}
+
+.bottom {
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    padding: 15px;
+    position: relative;
+    width: 1120px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+    overflow: auto;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.infoDiv {
+    color: black;
+    background-color: #86b1ff80;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: groove;
+}
+
+.infoDivRed {
+    color: black;
+    background-color: #ffe5e5;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: groove;
+}
+
+.infoLayer {
+    overflow-y: auto;
+    height: 670px;
+    border: dashed;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.infoLayer div {
+    float: left;
+    padding: 1px 0px 0px 0px;
+}
+
+.infoLayer2 {
+    min-height: 631px;
+    max-height: 660px;
+}
+
+.infoLayer2 div {
+    float: left;
+    padding: 1px;
+}
+
+.mostCharDiv {
+    width: 100%
+}
+
+.drawIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.drawIcon45 {
+    width: 45px;
+    height: 45px;
+}
+
+#main {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.width10p {
+    width: 10%;
+}
+
+.width20p {
+    width: 20%;
+}
+
+.width25p {
+    width: 25%;
+}
+
+.width30p {
+    width: 30%;
+}
+
+.width33p {
+    width: 33%;
+}
+
+.width40p {
+    width: 40%;
+}
+
+.width45p {
+    width: 45%;
+}
+
+.width50p {
+    width: 50%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width85 {
+    width: 85%;
+}
+
+.parent {
+    display: table;
+    table-layout: fixed;
+}
+
+.child {
+    display: table-cell;
+}
+
+.kda {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.mapCard {
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.shortText {
+    width: 15%;
+}
+
+.longText {
+    width: 70%;
+}
+
+.mostCharDetailDiv {
+    width: 100%;
+}
+
+.mostCharDetailDiv .card {
+    width: 25%;
+    background-color: white;
+}
+
+.positionDiv {
+    float: left;
+    width: 100%;
+}
+
+.mapCard .card {
+    width: 25%;
+    background-color: #88c8ff3d;
+}
+
+.infoDiv .card {
+    width: 25%;
+    background-color: white;
+}
+
+.infoDivRed .card {
+    width: 25%;
+    background-color: white;
+}
+
+.card-body {
+    min-width: 64px;
+    line-height: 1.2;
+}
+
+.card div {
+    padding: 0px;
+}
+
+#recentlyDivTitle span {
+    margin-left: 5px;
+}
+
+.datepickerDiv {
+    float: left;
+    width: 150px;
+}
+
+.topLeft {
+    float: left;
+    width: 50%
+}
+
+.topRight {
+    float: left;
+    width: 50%
+}
+
+.ACE {
+    color: rgb(255, 0, 174);
+    font-weight: bold;
+}
+
+.JOKER {
+    color: rgb(129, 0, 184);
+    font-weight: bold;
+}
+
+.GOLD {
+    color: rgb(211, 144, 0);
+    font-weight: bold;
+}
+
+.SILVER {
+    color: rgb(159 159 159);
+    font-weight: bold;
+}
+
+.BRONZE {
+    color: rgb(129, 80, 24);
+    font-weight: bold;
+}
+
+.UNRANK {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.shortInput {
+    width: 60px;
+}
+
+#statsMain {
+    width: 1500px;
+    margin: 0px auto;
+}
+
+.topNoheight {
+    margin-top: 10px;
+    float: left;
+    padding: 15px;
+    position: relative;
+    width: 1300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+}
+
+.conLayer {
+    margin-top: 10px;
+    float: left;
+    padding: 15px;
+    position: relative;
+    width: 650px;
+    min-height: 750px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+}
+
+.conStats {
+    margin-bottom: 10px;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(173 173 173 / 80%);
+    border-radius: 7px;
+}
+
+.h3Span {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+#mainV2 {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.conUserV2 {
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+    /* border: dashed; */
+}
+
+.infoLayerV2 {
+    display: flex;
+    align-items: center;
+    /* 수직 정렬 */
+    flex-direction: row;
+    /* default: row */
+    /* justify-content: center; */
+    /* flex direction에 대해서 정렬방식 선택 */
+}
+
+.infoDivV2 {
+    float: left;
+    margin-right: 3px;
+    margin-left: 6px;
+    width: 20%;
+    height: 100%;
+    color: black;
+    background-color: #86b1ff80;
+    border-radius: 5px;
+    border: groove;
+}
+
+.infoDivV3 {
+    float: left;
+    margin-right: 3px;
+    margin-left: 6px;
+    width: 20%;
+    color: black;
+    background-color: #ffe5e5;
+    border-radius: 5px;
+    border: groove;
+}
+
+.infoDivV2Temp {
+    float: left;
+    margin-right: 3px;
+    margin-left: 6px;
+    width: 20%;
+    height: 360px;
+    color: black;
+    background-color: #86b1ff80;
+    border-radius: 5px;
+    border: groove;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.infoDivV2TempImg {
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/sword-icon-png-6.jpg");
+}
+
+.infoDivV3Temp {
+    float: left;
+    margin-right: 3px;
+    margin-left: 6px;
+    width: 20%;
+    height: 360px;
+    color: black;
+    background-color: #ffe5e5;
+    border-radius: 5px;
+    border: groove;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.infoDivV3TempImg {
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/shield-png-icon-13.jpg");
+}
+
+.floatLeft {
+    float: left
+}
+
+.mostCharDetailDivV2 {
+    width: 100%;
+}
+
+.mostCharDetailDivV2 .card {
+    width: 12.5%;
+    background-color: white;
+    float: left
+}
+
+.head {
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 10px;
+    padding: 15px;
+    position: relative;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+}
+
+.head2flow {
+    margin: 10px auto;
+    width: 50%;
+}
+
+.playGameList {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+.rightBanner {
+    width: 1px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.nicknameLayer {
+    padding-bottom: 4px !important;
+    border-bottom: 1px solid gray;
+}
+
+.nickNameDiv {
+    min-width: 30%;
+    height: 50px;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 8px 15px 0px 0px !important;
+}
+
+.seasonTabDiv {
+    height: 720px;
+    overflow: auto;
+}
+
+.charImg {
+    width: 48px;
+    height: 48px;
+    margin-top: 7px;
+    margin-left: 7px;
+    border: 2px solid
+}
+
+.attrInfo {
+    width: 320px;
+    height: 433px;
+    float: left;
+    margin-right: 10px;
+}
+
+#widthMain {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.widthTab {
+    width: 700px;
+}
+
+.charImgDiv {
+    width: 24%;
+    background-color: white;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    height: 60px;
+}
+
+.charList {
+    width: 550px;
+    height: 800px;
+    overflow: auto;
+}
+
+.charImgActive {
+    background-color: #fb4f4f;
+}
+
+.charNameSpan {
+    vertical-align: sub;
+}

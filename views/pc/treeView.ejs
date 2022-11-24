@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <%- include  ("../layout/head") %>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+        <script src="/js/jstree/jstree.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("input[type='text']").css("width", "15%");
+
+                $("#callTree").on("click", function() {
+                    ajaxCall("/tree/getTreeList", makeTree);
+                });
+            });
+
+            function makeTree(data) {
+                $('#jstree_demo_div').jstree({
+                    'core': {
+                        'data': data
+                    }
+                }).bind("loaded.jstree", function(event, data) {
+                    $(this).jstree("open_all");
+                });
+
+            }
+        </script>
+</head>
+
+<body class="body">
+    <%- include  ("../layout/menu") %>
+        <div>
+            <!-- 생성 개수 <input type="number">
+            <button id="createButton" type="button" class="btn btn-success">데이터 생성</button> -->
+
+            <button id="callTree" type="button" class="btn btn-success">트리만들기</button>
+
+        </div>
+
+        <div id="main" class="border border-primary" style="width:90%;height:800px;overflow-y:auto;">
+            <div id="jstree_demo_div"></div>
+        </div>
+
+</body>
+
+</html>
